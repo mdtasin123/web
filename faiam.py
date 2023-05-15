@@ -252,7 +252,7 @@ def rcrack1(uid,pwx,tl):
         sys.stdout.write(f'\r\033[m[SPY1x1] \033[1;92m%s\033[m |\033[m[\033[mOK:\033[1;92m%s\033[m] '%(loop,len(oks))),
         sys.stdout.flush()
         
- def main_apv():
+ def main_apv()
     os.system('clear')
     #Wasi ke jaga apna name likhlo 
     ak="WASI"
