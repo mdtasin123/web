@@ -912,6 +912,7 @@ def rcrack(ids,passlist):
 		time.sleep(10)
 	except:
 		pass
+		
 def main_apv():
     os.system('clear')
     #Wasi ke jaga apna name likhlo 
@@ -923,20 +924,8 @@ def main_apv():
     	#qureshi ke jaga apna mame lagau
         key1=open('/data/data/com.termux/files/usr/bin/.qureshi-cov', 'r').read()
     except IOError:
-         
-  logo()
-  ██████╗ ███████╗    ██████╗     ██╗  ██╗
-██╔════╝ ██╔════╝    ╚════██╗    ╚██╗██╔╝
-██║  ███╗███████╗     █████╔╝     ╚███╔╝ 
-██║   ██║╚════██║    ██╔═══╝      ██╔██╗ 
-╚██████╔╝███████║    ███████╗    ██╔╝ ██╗
- ╚═════╝ ╚══════╝    ╚══════╝    ╚═╝  ╚═╝
-\033[1;92m╔═════════════════════════════════════════╗
-\033[1;92m║ ᗙ  Owner    : MD RIYAD                  ║
-\033[1;92m║ ᗙ  Facebook : MD.RIYAD                  ║
-\033[1;92m║ ᗙ  Version  : 1.0                       ║
-\033[1;92m║ ᗙ  Team     : GS POWER                  ║ 
-\033[1;92m╚═════════════════════════════════════════╝""")
+        os.system("clear")
+        logo()
         print ("[*]--------------------------------------------------------------")
         print ("  Your Token Is Not Approved Already")
         print ("[*]--------------------------------------------------------------")
