@@ -923,7 +923,7 @@ def main_apv():
     	#qureshi ke jaga apna mame lagau
         key1=open('/data/data/com.termux/files/usr/bin/.qureshi-cov', 'r').read()
     except IOError:
-  os.system(" clear")                          
+         
   logo()
   ██████╗ ███████╗    ██████╗     ██╗  ██╗
 ██╔════╝ ██╔════╝    ╚════██╗    ╚██╗██╔╝
