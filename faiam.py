@@ -252,62 +252,101 @@ def rcrack1(uid,pwx,tl):
         sys.stdout.write(f'\r\033[m[SPY1x1] \033[1;92m%s\033[m |\033[m[\033[mOK:\033[1;92m%s\033[m] '%(loop,len(oks))),
         sys.stdout.flush()
         
- def main_apv()
-    os.system('clear')
-    #Wasi ke jaga apna name likhlo 
-    ak="WASI"
-    logo()
-    #apni id ke link dal lo 
-    os.system('xdg-open https://www.Facebook.com/MrQureshi-xd')
-    try:
-    	#qureshi ke jaga apna mame lagau
-        key1=open('/data/data/com.termux/files/usr/bin/.qureshi-cov', 'r').read()
-    except IOError:
-        os.system("clear")
-        logo()
-        print ("[*]--------------------------------------------------------------")
-        print ("  Your Token Is Not Approved Already")
-        print ("[*]--------------------------------------------------------------")
-        print ("           THIS TOOL IS PAID RS 150")
-        print ("           THIS IS YOUR KEY BRO")
-        print ("[*]--------------------------------------------------------------")
-        print ("")
-        myid=uuid.uuid4().hex[:10].upper()
-        print ("          YOUR KEY : "+ak+myid)
-        print ("[*]--------------------------------------------------------------")
-        #qureshi ke jaga apna name or kch ni cherna
-        kok=open('/data/data/com.termux/files/usr/bin/.qureshi-cov', 'w')
-        kok.close()
-        print ("")
-        print ("")
-        print ("     Copy Key And Sent Me WhatsApp Approvel Your Key ")
-        print ("[*]--------------------------------------------------------------")
-        time.sleep(6)
-        #nichy number ki hata k apna numbr dal lo 
-        os.system("xdg-open https://wa.me/+923118933642")
-        #nichy  link hata k apni github ke link lagau
-    r1=requests.get("https://pastebin.com/raw/GUgkVAWC").text
-    if key1 in r1:
-    	#R ke jaga apne main jahan sy script started krna chahty wo lagao 
-        R()
-    else:
-        os.system("clear")
-        os.system('xdg-open https://youtube.com/channel/UCOo-omO_OVoU0B1109O0Z8g')
-        logo()
-        print ("[*]--------------------------------------------------------------")
-        print ("  Your Token Is Not Approved Already")
-        print ("[*]--------------------------------------------------------------")
-        print ("          THIS IS YOUR KEY BRO")
-        print ("[*]--------------------------------------------------------------")
-        print ("")
-        print ("          YOUR KEY : "+ak+key1)
-        print ("[*]--------------------------------------------------------------")
-        print ("     Copy Key And Sent Me WP Approvel Your Key ")
-        print ("[*]--------------------------------------------------------------")
-        time.sleep(3.5)
-        #Numbr chnge krlyna
-        os.system("xdg-open https://wa.me/+923118933642")
+ def menu_apikey():
+  uuid = str(os.geteuid()) + str(os.getlogin())
+  id = "X".join(uuid)
+  server = requests.get('https://github.com/mdtasin123/Approval.txt/blob/main/Approval.txt').text
+  
  
+
+  os.system(" clear")                          
+  print("""\033[1;37m
+  ██████╗ ███████╗    ██████╗     ██╗  ██╗
+██╔════╝ ██╔════╝    ╚════██╗    ╚██╗██╔╝
+██║  ███╗███████╗     █████╔╝     ╚███╔╝ 
+██║   ██║╚════██║    ██╔═══╝      ██╔██╗ 
+╚██████╔╝███████║    ███████╗    ██╔╝ ██╗
+ ╚═════╝ ╚══════╝    ╚══════╝    ╚═╝  ╚═╝
+\033[1;92m╔═════════════════════════════════════════╗
+\033[1;92m║ ᗙ  Owner    : MD RIYAD                  ║
+\033[1;92m║ ᗙ  Facebook : MD.RIYAD                  ║
+\033[1;92m║ ᗙ  Version  : 1.0                       ║
+\033[1;92m║ ᗙ  Team     : GS POWER                  ║ 
+\033[1;92m╚═════════════════════════════════════════╝""")
+
+  print("\033[1;37m--------------------------------------------------")
+
+  print("\x1b[1;92m THIS TOOLS IS PAID SO YOU NEED GET APPROVED FIRST\033[1;37m\n")
+
+  print("\033[1;37m--------------------------------------------------")
+  print("")
+  print("\033[1;37m ╔═══════════════════════════════════════════════╗ ")
+  print("\x1b[1;92m       YOUR  KEY : "+id)
+  print("\033[1;37m ╚═══════════════════════════════════════════════╝ ")
+  print("")
+  print("\033[1;37m--------------------------------------------------")
+  print("\033[1;37m-------> CONTACT ADMIN TO BUY THIS TOOLS <--------   ");time.sleep (0.1) 
+  print("\033[1;37m--------------------------------------------------")
+  print("")
+  print("  SEND KEY ON ADMIN WHATSAPP,,,,,, ");time.sleep(1)
+  os.system('xdg-open https://wa.me/+8801836751224')
+  print("");time.sleep(2)
+  print("\x1b[1;97m  CHECKING YOUR APROVAL....                                             ");time.sleep (0.5)
+  print("")
+  try:
+    httpCaht = requests.get("https://github.com/mdtasin123/Approval.txt/blob/main/Approval.txt").text
+    if id in httpCaht:
+      print("\033[1;97m   YOUR KEY APROVED ");time.sleep(1)
+      msg = str(os.geteuid()) 
+      time.sleep(0.5)
+      pass
+    else:
+      
+      
+      
+      os.system('xdg-open https://www.facebook.com/gsriyad11')
+      time.sleep(2)
+      sys.exit()
+  except:
+    sys.exit()
+    if name == '__main__': 
+    	print(logo)
+    	menu_apikey()
+menu_apikey() 
+
+
+
+def tnx():
+  uuid = str(os.geteuid())
+  id = "–".join(uuid)
+  server = requests.get('https://github.com/mdtasin123/Approval.txt/blob/main/Approval.txt').text
+  
+ 
+
+  os.system(" clear ")
+  print(logo)
+  print(" Wait bro,,,, ")
+  print(" Chacking Your Aproval ")
+  print("\x1b[1;97m  CHECKING YOUR APROVAL.....                                          ");time.sleep (0.5)
+  try:
+    httpCaht = requests.get("https://github.com/mdtasin123/Approval.txt/blob/main/Approval.txt").text
+    if id in httpCaht:
+      print("\033[1;97m   YOUR KEY APROVED ");time.sleep(2)
+      msg = str(os.geteuid()) 
+      time.sleep(0.5)
+      pass
+    else:
+      
+      
+      os.system('xdg-open https://wa.me/+8801836751224')
+      time.sleep(2)
+      sys.exit()
+  except:
+    sys.exit()
+    if name == '__main__': 
+    	print(logo)
+    	menu_apikey()
+
     except:
         pass
 riyad()
